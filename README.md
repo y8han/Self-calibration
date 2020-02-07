@@ -24,7 +24,6 @@ We consider how "close" the calibrated intrinsic matrix <img src="https://latex.
 ![](model_hypothesis.png)
 
 ## Error Measurement
-<<<<<<< HEAD
 There possible methods have been proposed in order to estimate the quality of the calibrated paramters:
 
 * The Frobenius norm between the groundtruth K(generated intrinsic matrix) and the calibrated intrinsic matrix <img src="https://latex.codecogs.com/gif.latex?\hat{K}" />. This form of measurement assumes there is only one optimal solution and it should be the groundtruth.
