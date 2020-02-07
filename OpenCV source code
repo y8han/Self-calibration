@@ -1,0 +1,32 @@
+The opencv functions:calibration.cpp;solvepnp.cpp;calibinit.cpp;undistortpoints.cpp is under the repository /imgproc/src and other functions are under /calib.
+
+The main reasons why I read the source codes:
+1.If possible, try to find why it can not work without an initial guess with only four points.
+2.justify our method which uses initial guess 
+
+OpenCV source codes reading record:
+
+1.findchessboard:it uses subpixel() to achieve a higher accuracy around each corner // the source code of this function is in calibinit.cpp
+
+2.findhomography():first it normalizes all the data in each image plane, which is very important described in Multiple-view-geometry(non-isotropic normalization,then use eigenvalue decomposition to obtain the best solution of H in L2 norm) Pay attention:the eigenvalue decomposition of ATA(with eigenvectors) is equal to the SVD of A(the right part). OpenCV use absolute value to represent each point's deviation from the average one, instead of variance.  //the source code of this function is in fundam.cpp, btw the most important function runKernel is also in fundam.cpp(it also includes the normalization operation).
+
+If the there are only four points as input, findhomography can not use RANSAC for outliers remove.If more than 4 points are entered,we can choose to use one of the three different methods to improve the results:
+1.RANSAC-based robust method
+2.Least-Median robust method
+3.PROSAC-based robust method
+
+3.solvePnP()
+There are different methods we can use to solve PnP problems.
+(1).if we set flag as upnp,epnp or SOLVEPNP_DLS, first we would undistort the image points(function:cvUndistortPointsInternal) based on the distortion model built in zhang's paper  or in the book learning opencv using the input variable distortion_matrix. 
+!!!!!!!!!!! -> Pay attention:The OpenCV function <undistortPoints>(in module imgproc) returns the undistorted points which are in the normalized image plane.(not in the pixel image plane,we have to know the intrinsic matrix to project them onto the pixel image plane)
+Then we will use epnp algorithm to obtain the approximate rotation and translation with optimization method.
+(2).if we set flag as SOLVEPNP_ITERATIVE, it would use the function cvFindExtrinsicCameraParams2(), which is in calibration.cpp.
+cvFindExtrinsicCameraParams2()(in calibration.cpp) it uses an initial guess. The method that it computes initial guess seems very strange to me right now. Maybe there are some explanations behind it or just the coders did some experiments and used that experimental expression?
+
+the source code of this function is in solvepnp.cpp
+
+4.calibrateCamera() (in calibration.cpp)
+It first initializes intrinsic matrix(by DLT?)  the initial solution seems very close the final one.?why?
+cvInitIntrinsicParams2D() is the function which did the most parts.
+Then it initializes extrinsic matrix
+

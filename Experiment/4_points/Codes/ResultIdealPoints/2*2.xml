@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<image_width>1920</image_width>
+<image_height>1440</image_height>
+<Original_camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1500. 0. 960. 0. 1500. 720. 0. 0. 1.</data></Original_camera_matrix>
+<Calibrated_camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.5017261356348720e+03 0. 9.6000000000013063e+02 0.
+    1.4945211474791333e+03 7.2000000000020941e+02 0. 0. 1.</data></Calibrated_camera_matrix>
+<object_points>
+  <_>
+    0. 0. 0. 0. 1. 0. 1. 0. 0. 1. 1. 0.</_>
+  <_>
+    0. 0. 0. 0. 1. 0. 1. 0. 0. 1. 1. 0.</_></object_points>
+<image_points>
+  <_>
+    6.40102637e+03 1.01853896e+04 6.49240186e+03 1.02963926e+04
+    6.29838965e+03 9.95755859e+03 6.39501709e+03 1.00739248e+04</_>
+  <_>
+    3.68155664e+03 4.39058252e+03 3.65692090e+03 4.36091113e+03
+    3.66270947e+03 4.40178955e+03 3.65323193e+03 4.35963330e+03</_></image_points>
+<Generated_extrinsic_matrix>
+  <_ type_id="opencv-matrix">
+    <rows>3</rows>
+    <cols>3</cols>
+    <dt>d</dt>
+    <data>
+      4.6737213554741197e-01 8.7218691780641644e-01
+      1.3801927291368807e+02 -1.0657690196083727e-01
+      2.1774012327514558e-01 2.3981665736663058e+02
+      8.7761304165462439e-01 -4.3804020263380822e-01
+      3.8039646293136883e+01</data></_>
+  <_ type_id="opencv-matrix">
+    <rows>3</rows>
+    <cols>3</cols>
+    <dt>d</dt>
+    <data>
+      -1.7052859822392080e-01 1.3681659782352951e-01
+      1.8124647281075164e+02 9.0393098457692311e-01
+      -3.7246324749866733e-01 2.4551238514195057e+02
+      3.9221011245196036e-01 9.1790650276743380e-01
+      9.9974730100937606e+01</data></_></Generated_extrinsic_matrix>
+<reprojection_error>7.3785278165021750e-05</reprojection_error>
+<variance_of_random_noise>5.5000000000000000e+00</variance_of_random_noise>
+<Original_camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1500. 0. 960. 0. 1500. 720. 0. 0. 1.</data></Original_camera_matrix>
+<Calibrated_camera_matrix_noise type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.7585815723893345e+04 0. 9.5991946039180050e+02 0.
+    5.0707659565535896e+03 7.1942908472857027e+02 0. 0. 1.</data></Calibrated_camera_matrix_noise>
+<reprojection_error_noise>4.2587001964445772e+00</reprojection_error_noise>
+</opencv_storage>

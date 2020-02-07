@@ -1,0 +1,35 @@
+what we have found:
+
+1.The number of points, the number of images, the magnitude of the convariance of Guassian noice all would impact the performance of calibration, even for chessboard calibration.
+Besides, for license plate calibration, we also need to consider the ratio of width and height and the area.
+
+In the chessboard calibration,3*3 chessboard and 8*6 chessboard both perform well when the pixel location of chessboard corner are precise enough(found by OpenCV function findchessboardcorner(),subpixel accuracy). When we randomly add Guassian noise into the pixel locations, we found that 8*6 chessboard show better results(with more robustness to the effect of noise), and it have a strong relation with the magnitude. And these three parameters could determine the initial solution of the calibration model(which has to be proved by reading OpenCV source code). In our previous case, four points with some noice could not work because it can not find a initial solution, which means we don't know where to numerically optimize the solution for the first iteration. And maybe with different initial solution, the numerical optimization method could lead to different final solution and the reprojection are all small(the reason may be simple beacuse it is a highly non-linear system and most numerical optimization methods are just try to find a local minimizaer not a global one(NP hard)). 
+
+Important:
+1.Perhaps the pixel areas of the detected objects in the image plane could also affect the affect the results. It seems so, how much area has been seen could affect the results. Even the ratio of the width and height of the chessboard?????? The bottom part has described it and determine what kind of experiments we need to do.
+
+The main reason:H matrix is numerical sensitive. In theoty it only needs 4 points but indeed more points could be helpful(we want to make a quantitative analysis of it).
+
+2.further work:quantitively build the relation(build a model shown the accuracy of final result with the three parameters) and find more points on the license plate(for our work to be done).
+
+3.Even when we get the initial solution, sometimes, it can not numerically converge to the groundtruth(maybe due to the iteration times or non-linearity)
+
+Han's work: 
+1.understand the calibration function used in OpenCV
+2.to see the initial solution for different cases(how they would change with the magnitude of noise for different number of points or number of images)
+3.to see what happens for the number of points are 5,6,7....(with different number of images)
+results:
+1.if we add some noise into image points, in some case, it would put a big effect on the final result and in some other case, it seems the change is not very large?
+Liu's work:
+1.detect more points from license plates.
+2.read the paper which talks about error analysis
+
+
+Further plan:
+被要求做的实验:关于理想的4个点以及匹配点(手动设置内参数矩阵以及Rt求得匹配点位置)对是否具备相机标定的能力。（可以延伸到无数多个点来验证是否噪声影响剧烈，这样可以保证再加入噪声之前都是ideal points,然后比较加入噪声以后的效果，标定的结果与我们设置的intrinsic matrix相比，是否有较大变化），理想情况是：1.当有两张图片且每张图片的特征点数量不小于4，就可以标定出结果。测试一下，看看是否如此；继而加噪音测试。这里我想验证的猜想是 会不会有些情况下求出来H是无效信息（因为噪声加入过大，点数不足以克服噪声），若是，如何定性分析。以及多增加H矩阵能否起到作用（多增加图片数量）。
+1.关于何种因素能具体影响标定结果？比如 噪声的magnitude，棋盘上的点数数量，使用的棋盘照片，覆盖的图片面积（单个面积和总覆盖面积（面积的影响可否单纯归结到每个点的坐标精确性？或者两个点之间长度的精确性。比如车牌面积大，两个不同feature points之间的像素长度远，这样会使误差所占的比例减小，车牌面积小，误差所占的比例就大。images points靠得近）相对于实际车牌），长宽比例(optional,打印一个矩形棋盘验证效果)。
+目前找到的车牌点做的标定，reprojection error有点大的异常？棋盘的是2-3,目前车牌的是56  若使用Initial guess, error能达到221（首先检测标的点正确性） （不过结果比4个的时候好不少
+验证方法：1. 通过手机录取新的一段视频，使车牌面积更大，然后同样找点标定，对比结果（可以拍摄多个占面积大小不一样的车牌视频，对比结果）。2.理解数学模型(从源码)以后，分析不同的变量的影响（数学建模，理论分析)
+综上，希望分析出什么样的图片中的信息是有效信息，什么样的是无效信息（指其求出来的homography矩阵对标定（寻求数值优化的初始解，大致就在最终解附近）是有效信息）。
+注意绘制图像保留结果。
+
