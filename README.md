@@ -30,7 +30,7 @@ There possible methods have been proposed in order to estimate the quality of th
 * The Frobenius norm between the groundtruth K(generated intrinsic matrix) and the calibrated intrinsic matrix <img src="https://latex.codecogs.com/gif.latex?\hat{K}" />. This form of measurement assumes there is only one optimal solution and it should be the groundtruth.
 
 * The estimated extrinsic matrix.
-=======
+
 Several methods can be used to evaluate the "closeness" between the estimated instrinsic <img src="https://latex.codecogs.com/gif.latex?\hat{K}" /> and the groundtruth (from chessboard calibration) <img src="https://latex.codecogs.com/gif.latex?K" />, which to be used is underdetermined:
 
 **The Frobenius norm**: <img src="https://latex.codecogs.com/gif.latex?\sqrt{\sum_{i=1}^{m} \sum_{j=1}^{n}\left|\hat{K}-K \right|_{ij}^{2}}" /> 
@@ -42,7 +42,6 @@ Several methods can be used to evaluate the "closeness" between the estimated in
 (This measurement assumes that there can be multiple optimal intrinsic, even though they have very different values. The rationality behind is that projecting points between 2D and 3D is at all the purpose of estimating intrinsics. If true point pairs of 2D and 3D are correctly related and located, the "real" values of intrinsics are of no interest to us.)
 
 *Note: We should refer to [7] for error analyses methods.*
->>>>>>> 2c04bcf5dd5f6d15196991cc92d82c7fec138b05
 
 ## Approches
 We approach the goal in both ways: <u>experiments</u> and <u>mathematical deduction</u>. 
