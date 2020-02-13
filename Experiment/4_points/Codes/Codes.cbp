@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Codes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Codes">
+				<Option output="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/Codes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 Codes"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Codes/fast">
+				<Option output="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/Codes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 Codes/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/hanyunhai/Downloads/autodrive/self-calibration\ with\ license\ plates/Camera-Self-Calibration/Experiment/4_points/Codes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/Calibration.cpp">
+			<Option target="Codes"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/Calibration.hpp">
+			<Option target="Codes"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/main.cpp">
+			<Option target="Codes"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/../../../../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/../../../../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/../../../../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hanyunhai/Downloads/autodrive/self-calibration with license plates/Camera-Self-Calibration/Experiment/4_points/Codes/../../../../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -10,7 +10,7 @@ public:
     void Configuration(int, vector<vector<Point3f> >, Size, double, double, vector<Mat>, float);
     double calibration_kernel(void);
     void add_noise(void);
-    void imgge_points_show(void);
+    void image_points_show(void);
     void record_data(void);
 private:
     void set_image_numbers(int);
@@ -22,8 +22,11 @@ private:
     void set_iteration(int);
     void results_compare();
     void set_noise(float);
+    void Calibration_camera(vector<vector<Point3f> >&, vector<vector<Point2f> >&,
+                            vector<int>&, Size&, Mat&);
     vector<vector<Point2f> > image_points;
     vector<vector<Point3f> > object_points;
+    vector<int> npoints;
     Mat intrinsic_matrix = Mat(3, 3, CV_64FC1);
     Mat intrinsic_new = Mat(3, 3, CV_64FC1);
     Mat intrinsic_noise = Mat(3, 3, CV_64FC1);

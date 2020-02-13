@@ -12,8 +12,24 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
-  "/usr/local/include"
-  "/usr/local/include/opencv"
+  "../Codes"
+  "../opencv_calib3d"
+  "../opencv_core"
+  "../opencv_dnn"
+  "../opencv_features2d"
+  "../opencv_flann"
+  "../opencv_highgui"
+  "../opencv_imgcodecs"
+  "../opencv_imgproc"
+  "../opencv_ml"
+  "../opencv_objdetect"
+  "../opencv_photo"
+  "../opencv_shape"
+  "../opencv_stitching"
+  "../opencv_superres"
+  "../opencv_video"
+  "../opencv_videoio"
+  "../opencv_videostab"
   )
 
 # Targets to which this target links.
