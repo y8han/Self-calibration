@@ -67,6 +67,11 @@ in order to see how the performace would change when more noises are added into 
 
 * We could build two different models analyzing the effect of noise beacuse these two calibration algorithms are build based on different geometric constraints. Then, we could compare the performance of the two models and find the optimal one.
 
+2.Correction:
+Indeed, the geometric constraints OpenCV use are the same as the ones Zhang proposed in his famous paper. They both use the property of the rotation matrix, which are:
+* Columns should be orthogonal to each otehr.
+
+* The norm of each column should be one.
 ## References
 [1] Zhengyou Zhang, "[Flexible camera calibration by viewing a plane from unknown orientations](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=791289)," Proceedings of the Seventh IEEE International Conference on Computer Vision, Kerkyra, Greece, 1999, pp. 666-673 vol.1.
 
