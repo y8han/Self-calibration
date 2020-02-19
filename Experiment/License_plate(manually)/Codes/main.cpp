@@ -57,7 +57,7 @@ int main() {
                                          distortion_coeffs, cv::noArray(), cv::noArray(),
                                          cv::CALIB_ZERO_TANGENT_DIST,
                                          TermCriteria(
-                                                 TermCriteria::COUNT + TermCriteria::EPS, 400, DBL_EPSILON));
+                                                 TermCriteria::COUNT + TermCriteria::EPS, 1, DBL_EPSILON));
         cout << "error:" << err << endl;
         cout << "\nintrinsic matrix:" << intrinsic_matrix;
         cout << "\ndistortion coefficients: " << distortion_coeffs << endl;
@@ -69,9 +69,9 @@ int main() {
         fs.release();
     } else{
         int index = 1;
-        string file_path = string("./p/manuallabels/images/");
-        string file_path2 = string("./p/manuallabels/objects/");
-        Mat img=imread("./leftcamera1.jpg");
+        string file_path = string("./p/manuallabels/feature/large_lp");
+        string file_path2 = string("./p/manuallabels/point/large_lp");
+        Mat img=imread("./large_lp1.jpg");
         Size img_size=img.size();
         while (true) {
             string name = to_string(index);
@@ -120,11 +120,11 @@ int main() {
                                          distortion_coeffs, cv::noArray(), cv::noArray(),
                                          cv::CALIB_ZERO_TANGENT_DIST,
                                          TermCriteria(
-                                                 TermCriteria::COUNT + TermCriteria::EPS, 500, DBL_EPSILON));
+                                                 TermCriteria::COUNT + TermCriteria::EPS, 1, DBL_EPSILON));
         cout << "error:" << err << endl;
         cout << "\nintrinsic matrix:" << intrinsic_matrix;
         cout << "\ndistortion coefficients: " << distortion_coeffs << endl;
-        string file_name("intrinsics_manually.xml");
+        string file_name("./Results/intrinsics_manually.xml");
         cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
         fs << "image_width" << img_size.width << "image_height" << img_size.height
            << "camera_matrix" << intrinsic_matrix << "distortion_coefficients"
