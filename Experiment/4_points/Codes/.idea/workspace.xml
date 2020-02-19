@@ -11,7 +11,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a02eefc-4ceb-4de5-bf68-6cc5c63e9cfa" name="Default Changelist" comment="" />
+    <list default="true" id="7a02eefc-4ceb-4de5-bf68-6cc5c63e9cfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Codes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Codes.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Codes.dir/Calibration.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Codes.dir/Calibration.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Codes.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Codes.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Calibration.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calibration.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Calibration.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes" beforeDir="false" afterPath="$PROJECT_DIR$/Codes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultIdealPoints/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ResultIdealPoints/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magnitude.png" beforeDir="false" afterPath="$PROJECT_DIR$/magnitude.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number.png" beforeDir="false" afterPath="$PROJECT_DIR$/number.png" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +45,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="458">
-                    <caret line="1276" column="35" selection-start-line="1276" selection-start-column="35" selection-end-line="1335" selection-end-column="5" />
+                  <state relative-caret-position="242">
+                    <caret line="1262" column="31" selection-start-line="1262" selection-start-column="31" selection-end-line="1262" selection-end-column="31" />
                     <folding>
                       <element signature="e#2157#2179#0" expanded="true" />
                     </folding>
@@ -120,7 +137,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -128,20 +145,20 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="17089" />
-          <entry key="hpp" value="1110" />
-          <entry key="txt" value="388" />
+          <entry key="cpp" value="17828" />
+          <entry key="hpp" value="1228" />
+          <entry key="txt" value="440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="372" />
-          <entry key="ObjectiveC" value="18199" />
+          <entry key="CMakeLists.txt" value="424" />
+          <entry key="ObjectiveC" value="19056" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -149,7 +166,7 @@
         <counts>
           <entry key="cmath" value="1" />
           <entry key="cpp" value="15" />
-          <entry key="h" value="12" />
+          <entry key="h" value="13" />
           <entry key="hpp" value="21" />
           <entry key="iosfwd" value="1" />
           <entry key="txt" value="1" />
@@ -157,7 +174,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="50" />
+          <entry key="ObjectiveC" value="51" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -177,8 +194,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="19">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -189,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calibration.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="204">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -201,8 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1376">
-              <caret line="218" column="68" lean-forward="true" selection-start-line="218" selection-start-column="68" selection-end-line="218" selection-end-column="68" />
+            <state relative-caret-position="217">
+              <caret line="225" column="23" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -211,7 +228,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>solve</find>
       <find>criteria</find>
       <find>calibration</find>
       <find>calibrateC</find>
@@ -232,7 +248,6 @@
       <find>_allH</find>
       <find>src</find>
       <find>point_numbers</find>
-      <find>cameraMatrix</find>
       <find>iteration</find>
       <find>npoints</find>
       <find>extrinsics</find>
@@ -241,6 +256,8 @@
       <find>reprojection_error_noise</find>
       <find>j</find>
       <find>fx_error</find>
+      <find>board_w</find>
+      <find>cameraMatrix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -268,8 +285,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="65" />
-    <option name="y" value="1132" />
+    <option name="x" value="599" />
+    <option name="y" value="1551" />
     <option name="width" value="1855" />
     <option name="height" value="1028" />
   </component>
@@ -293,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +325,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,6 +384,7 @@
       <workItem from="1581619916357" duration="183000" />
       <workItem from="1581620106584" duration="8947000" />
       <workItem from="1582049889816" duration="18383000" />
+      <workItem from="1582089439541" duration="5160000" />
     </task>
     <task id="LOCAL-00001" summary="Add codes">
       <created>1579826993876</created>
@@ -400,18 +418,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111014000" />
+    <option name="totallyTimeSpent" value="116174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="1340" width="1855" height="1028" extended-state="0" />
+    <frame x="65" y="1076" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102266446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10337203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2502781" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30157068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,8 +438,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.29810902" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.4450262" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.28476083" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.44397905" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,13 +459,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add codes_1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="252" column="6" selection-start-line="252" selection-start-column="6" selection-end-line="252" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/opencv2/core/operations.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -518,6 +529,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/5/cmath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="433" column="4" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/core/include/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="536" column="5" selection-start-line="536" selection-start-column="5" selection-end-line="536" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1102" selection-start-line="1102" selection-end-line="1102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/iosfwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="164" column="36" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultIdealPoints/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2797">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="1262" column="31" selection-start-line="1262" selection-start-column="31" selection-end-line="1262" selection-end-column="31" />
+          <folding>
+            <element signature="e#2157#2179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/include/opencv2/core/mat.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48897">
@@ -574,30 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/cmath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="433" column="4" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/core/include/opencv2/core/mat.inl.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="536" column="5" selection-start-line="536" selection-start-column="5" selection-end-line="536" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="1276" column="35" selection-start-line="1276" selection-start-column="35" selection-end-line="1335" selection-end-column="5" />
-          <folding>
-            <element signature="e#2157#2179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -605,31 +637,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp">
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="1102" selection-start-line="1102" selection-end-line="1102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/iosfwd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="164" column="36" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResultIdealPoints/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2797">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="179">
+          <caret line="334" column="6" selection-start-line="334" selection-start-column="6" selection-end-line="334" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calibration.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -638,15 +656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1376">
-          <caret line="218" column="68" lean-forward="true" selection-start-line="218" selection-start-column="68" selection-end-line="218" selection-end-column="68" />
+        <state relative-caret-position="217">
+          <caret line="225" column="23" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="19">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

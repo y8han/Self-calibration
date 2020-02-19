@@ -84,11 +84,13 @@ void calibration::set_image_points(){
 void calibration::set_noise(float n){
     magnitude_of_noise = n;
 }
-void calibration::Configuration(int number, Size size, double fx, double fy, vector<Mat> ex){
+void calibration::set_iteration(int n1) {
+    iteration = n1;
+}
+void calibration::Configuration(int number, Size size, double fx, double fy){
     set_image_numbers(number);
     set_image_size(size);
     set_intrinsic(fx,fy);
-    set_extrinsic(ex);
 }
 void calibration::Correspondence(vector<vector<Point3f> > objp, float noise){
     set_object_points(objp);
@@ -141,6 +143,10 @@ vector<vector<Point3f> > calibration::objp_init(int n1) {
 void calibration::loop_ter() {
     iindex++;
     index = -1;
+}
+void calibration::clear(void){
+    iindex = 0;
+    extrinsic_matirx.clear();
 }
 void calibration::Calibration_camera(vector<vector<Point3f> >& objectPoints, vector<vector<Point2f> >& imagePoints,
                                      vector<int>& npoints, Size& imageSize, Mat& cameraMatrix) {
@@ -214,9 +220,11 @@ void calibration::Calibration_camera(vector<vector<Point3f> >& objectPoints, vec
     cameraMatrix.at<double>(1,1) = a[4];
     cameraMatrix.at<double>(1,2) = a[5];
     //camera intrinsic matrix parameter.
-    fx_error[iindex][index] = abs(a[0]-intrinsic_matrix.at<double>(0,0));
-    fy_error[iindex][index] = abs(a[4]-intrinsic_matrix.at<double>(1,1));
-    Frobenius_norm[iindex][index] = fx_error[iindex][index]+fy_error[iindex][index];
+    double fx_e = abs(a[0]-intrinsic_matrix.at<double>(0,0))/iteration;
+    double fy_e = abs(a[4]-intrinsic_matrix.at<double>(1,1))/iteration;
+    fx_error[iindex][index] += fx_e;
+    fy_error[iindex][index] += fy_e;
+    Frobenius_norm[iindex][index] += fx_e + fy_e;
     imagePoints.clear();
     objectPoints.clear();
     npoints.clear();
@@ -241,11 +249,15 @@ void calibration::image_points_show() {
             cout << i_point[j] << endl;
     }
 }
-void calibration::record_data() {
+void calibration::record_data(int n1,int n_step,float s1,float s_step) {
     // save results
     string file_name("./ResultIdealPoints/");
     file_name += "result.txt";
     ofstream _file(file_name);
+    _file << n1 << endl;
+    _file << n_step << endl;
+    _file << s1 << endl;
+    _file << s_step << endl;
     _file << intrinsic_new.size() << endl;
     _file << intrinsic_new[0].size() << endl;
     for(int j = 0; j != intrinsic_new.size(); j++) {
