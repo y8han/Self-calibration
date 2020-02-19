@@ -21,7 +21,7 @@ public:
     vector<Mat> extrin_init(int);
     vector<vector<Point3f> > objp_init(int);
     double calibration_kernel(void);
-    void add_noise(void);
+    void add_noise(int);
     void image_points_show(void);
     void record_data(int,int,float,float);
     void loop_ter(void);
@@ -47,6 +47,8 @@ private:
     Mat intrinsic_matrix = Mat(3, 3, CV_64FC1);
     vector<vector<Mat> > intrinsic_new;
     vector<Mat> extrinsic_matirx;
+    vector<vector<float> > noise_x;
+    vector<vector<float> > noise_y;
     vector<vector<double> > fx_error;
     vector<vector<double> > fy_error;
     vector<vector<double> > Frobenius_norm;

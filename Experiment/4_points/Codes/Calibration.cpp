@@ -143,6 +143,8 @@ vector<vector<Point3f> > calibration::objp_init(int n1) {
 void calibration::loop_ter() {
     iindex++;
     index = -1;
+    noise_x.clear();
+    noise_y.clear();
 }
 void calibration::clear(void){
     iindex = 0;
@@ -229,15 +231,36 @@ void calibration::Calibration_camera(vector<vector<Point3f> >& objectPoints, vec
     objectPoints.clear();
     npoints.clear();
 }
-void calibration::add_noise(void) {
+void calibration::add_noise(int p) {
     default_random_engine e;
     normal_distribution<float> n(0, magnitude_of_noise);
     for(int i = 0; i < number; i++) {
         vector<Point2f>& image_p = image_points[i];
-        for(int j = 0; j < image_p.size(); j++){
-            Point2f& image = image_p[j];
-            image.x += n(e);
-            image.y += n(e);
+        if(p==0) {
+            vector<float> tmp_x;
+            vector<float> tmp_y;
+            for(int j = 0; j < image_p.size(); j++){
+                Point2f& image = image_p[j];
+                float n_x = n(e);
+                float n_y = n(e);
+                image.x += n_x;
+                image.y += n_y;
+                tmp_x.push_back(n_x);
+                tmp_y.push_back(n_y);
+            }
+            noise_x.push_back(tmp_x);
+            noise_y.push_back(tmp_y);
+        }else{
+            vector<Point2f>& image_p = image_points[i];
+            float n_x = n(e);
+            float n_y = n(e);
+            noise_x[i].push_back(n_x);
+            noise_y[i].push_back(n_y);
+            for(int j = 0; j != image_p.size(); j++){
+                Point2f& image = image_p[j];
+                image.x += noise_x[i][j];
+                image.y += noise_y[i][j];
+            }
         }
     }
 }

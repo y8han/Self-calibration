@@ -8,10 +8,10 @@ using namespace cv;
 int main() {
     double fx = 1500; //the ideal iintrinsic parameters fx
     double fy = 1500; //the ideal intrinsic parameters fy
-    int iteration = 2; //obtain the average value from n iterations in total
+    int iteration = 10; //obtain the average value from n iterations in total
     Size image_size = Size(1920, 1440);
     vector<int> board_w; //the number of image points
-    for(int i = 100; i <= 110; i++)
+    for(int i = 30; i <= 50; i++)
         board_w.push_back(i);
     vector<float> magnitude_noise = {0., 0.05, 0.1, 0.15, 0.2}; //the magnitude of random noise
     calibration calibration_model(board_w.size(), magnitude_noise.size());
@@ -26,7 +26,7 @@ int main() {
                 vector<vector<Point3f> > objp = calibration_model.objp_init(board_w[i]);
                 calibration_model.Correspondence(objp, magnitude_noise[j]);
                 //calibration_model.image_points_show();
-                calibration_model.add_noise();
+                calibration_model.add_noise(i);
                 calibration_model.calibration_kernel();
             }
             calibration_model.loop_ter();
