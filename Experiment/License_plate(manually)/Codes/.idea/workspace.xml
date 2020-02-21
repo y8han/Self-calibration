@@ -13,6 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="be767870-60a1-4906-80be-f5176a71184e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../4_points/Codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/CMakeFiles/Codes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/CMakeFiles/Codes.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/CMakeFiles/Codes.dir/Calibration.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/CMakeFiles/Codes.dir/Calibration.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/CMakeFiles/Codes.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/CMakeFiles/Codes.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/Calibration.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/Calibration.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/Calibration.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/Codes" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/Codes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/Draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/Draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/ResultIdealPoints/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_points/Codes/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_points/Codes/run.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
@@ -23,6 +33,59 @@
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes" beforeDir="false" afterPath="$PROJECT_DIR$/Codes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/intrinsics_groundtruth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/intrinsics_manually.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/left-0048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/leftCameraAfter.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calib-1-2/ost.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -41,28 +104,31 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="57" />
+          <entry key="cpp" value="172" />
           <entry key="txt" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="123" />
-          <entry key="ObjectiveC" value="57" />
+          <entry key="ObjectiveC" value="172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="jpg" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Image" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -82,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -107,9 +173,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="240" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
@@ -182,24 +248,24 @@
       <option name="presentableId" value="Default" />
       <updated>1580881949037</updated>
       <workItem from="1580881950999" duration="1328000" />
-      <workItem from="1582154925393" duration="545000" />
+      <workItem from="1582154925393" duration="3476000" />
+      <workItem from="1582232593191" duration="4702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1873000" />
+    <option name="totallyTimeSpent" value="9506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="0" />
+    <frame x="110" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25538972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32901832" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2910995" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -209,6 +275,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.33978495" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3277487" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -223,6 +290,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Results/intrinsics_manually.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/large_lp1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -230,13 +303,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Results/intrinsics_manually.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="69" />
         </state>
       </provider>
     </entry>

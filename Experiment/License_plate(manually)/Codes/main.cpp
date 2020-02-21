@@ -18,20 +18,18 @@ int main() {
     else
         cout<<"no images input"<<endl;
     if(mode==0) {
-        int start_point=16;
+        int start_point=1;
         int index = start_point;
         Size img_size;
-        int board_h = 6;
-        int board_w = 8;
-        int n_boards = 12;
+        int board_h = 9;
+        int board_w = 9;
+        int n_boards = 20;
         int board_n = board_w * board_h;
         Size board_sz = Size(board_w, board_h);
         while (index < start_point + n_boards) {
-            string img_path = string("./calib-1-2/left-00");
-            if(index <= 9)
-                img_path += string("0");
+            string img_path = string("./calib-1-2/lp2/large_cb");
             string img = to_string(index);
-            img += string(".png");
+            img += string(".jpg");
             string img_name = img_path + img;
             Mat image = imread(img_name);
             vector<Point2f> image_point;
@@ -57,21 +55,21 @@ int main() {
                                          distortion_coeffs, cv::noArray(), cv::noArray(),
                                          cv::CALIB_ZERO_TANGENT_DIST,
                                          TermCriteria(
-                                                 TermCriteria::COUNT + TermCriteria::EPS, 1, DBL_EPSILON));
+                                                 TermCriteria::COUNT + TermCriteria::EPS, 30, DBL_EPSILON));
         cout << "error:" << err << endl;
         cout << "\nintrinsic matrix:" << intrinsic_matrix;
         cout << "\ndistortion coefficients: " << distortion_coeffs << endl;
-        string file_name("intrinsics.xml");
+        string file_name("./Results/lp2/intrinsics_groundtruth.xml");
         cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
         fs << "image_width" << img_size.width << "image_height" << img_size.height
            << "camera_matrix" << intrinsic_matrix << "distortion_coefficients"
            << distortion_coeffs;
         fs.release();
-    } else{
+    } else {
         int index = 1;
-        string file_path = string("./p/manuallabels/feature/large_lp");
-        string file_path2 = string("./p/manuallabels/point/large_lp");
-        Mat img=imread("./large_lp1.jpg");
+        string file_path = string("./p/manuallabels/feature/lp2/large_lp");
+        string file_path2 = string("./p/manuallabels/point/lp2/large_lp");
+        Mat img=imread("./reference_image/lp2/large_lp1.jpg");
         Size img_size=img.size();
         while (true) {
             string name = to_string(index);
@@ -120,11 +118,11 @@ int main() {
                                          distortion_coeffs, cv::noArray(), cv::noArray(),
                                          cv::CALIB_ZERO_TANGENT_DIST,
                                          TermCriteria(
-                                                 TermCriteria::COUNT + TermCriteria::EPS, 1, DBL_EPSILON));
+                                                 TermCriteria::COUNT + TermCriteria::EPS, 30, DBL_EPSILON));
         cout << "error:" << err << endl;
         cout << "\nintrinsic matrix:" << intrinsic_matrix;
         cout << "\ndistortion coefficients: " << distortion_coeffs << endl;
-        string file_name("./Results/intrinsics_manually.xml");
+        string file_name("./Results/lp2/intrinsics_manually.xml");
         cv::FileStorage fs(file_name, cv::FileStorage::WRITE);
         fs << "image_width" << img_size.width << "image_height" << img_size.height
            << "camera_matrix" << intrinsic_matrix << "distortion_coefficients"

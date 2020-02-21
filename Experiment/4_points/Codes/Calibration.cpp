@@ -119,10 +119,15 @@ vector<Mat> calibration::extrin_init(int n1) {
         SVD::compute(r1, singular_values, left_matrix, right_matrix);
         Mat rotation_matrix=left_matrix*right_matrix;
         Mat r3 = rotation_matrix;
+        //fix the extrinsic matrix
+        //how to fix it still needs to figure out.
+        //pay attention:z should be much larger than x and y(in reality)
+        //Indeed, in the real-world application
+        //we need to focus on some unique extrinsic matrices(not all of them)
         r3.at<double>(0,2) = r2.at<double>(0,0);
         r3.at<double>(1,2) = r2.at<double>(0,1);
         r3.at<double>(2,2) = r2.at<double>(0,2);
-        //cout << "r3:" << rotation_matrix << endl;
+        cout << "r3:" << rotation_matrix << endl;
         extrinsics.push_back(r3);
     }
     return extrinsics;
@@ -140,7 +145,23 @@ vector<vector<Point3f> > calibration::objp_init(int n1) {
     }
     return tmp;
 }
-void calibration::loop_ter() {
+void calibration::loop_ter(string store, int h1, int h2) {
+    string noise_name("./ResultIdealPoints/");
+    noise_name += store;
+    noise_name += "/noise";
+    string file_index = to_string(h1) + ".txt";
+    noise_name += file_index;
+    ofstream _noise(noise_name);
+    _noise << h1 << endl;
+    _noise << h2 << endl;
+    for(int j = 0; j != number; j++) {
+        for (int i = 0; i != h2; i++) {
+            _noise << noise_x[j][i] << endl;
+            _noise << noise_y[j][i] << endl;
+        }
+        _noise << "******" << endl;
+    }
+    _noise.close();
     iindex++;
     index = -1;
     noise_x.clear();
@@ -148,6 +169,7 @@ void calibration::loop_ter() {
 }
 void calibration::clear(void){
     iindex = 0;
+    extrinsic_matrix_store.push_back(extrinsic_matirx);
     extrinsic_matirx.clear();
 }
 void calibration::Calibration_camera(vector<vector<Point3f> >& objectPoints, vector<vector<Point2f> >& imagePoints,
@@ -232,7 +254,8 @@ void calibration::Calibration_camera(vector<vector<Point3f> >& objectPoints, vec
     npoints.clear();
 }
 void calibration::add_noise(int p) {
-    default_random_engine e;
+    unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+    default_random_engine e(seed);
     normal_distribution<float> n(0, magnitude_of_noise);
     for(int i = 0; i < number; i++) {
         vector<Point2f>& image_p = image_points[i];
@@ -272,10 +295,11 @@ void calibration::image_points_show() {
             cout << i_point[j] << endl;
     }
 }
-void calibration::record_data(int n1,int n_step,float s1,float s_step) {
+void calibration::record_data(string store, int n1, int n_step, float s1, float s_step) {
     // save results
     string file_name("./ResultIdealPoints/");
-    file_name += "result.txt";
+    file_name += store;
+    file_name += "/result.txt";
     ofstream _file(file_name);
     _file << n1 << endl;
     _file << n_step << endl;
@@ -291,5 +315,12 @@ void calibration::record_data(int n1,int n_step,float s1,float s_step) {
         }
         _file << "*****" << endl;
     }
-    _file.close();
+    string ex_name("./ResultIdealPoints/");
+    ex_name += store;
+    ex_name += "/extrinsic.xml";
+    cv::FileStorage fs(ex_name, cv::FileStorage::WRITE);
+    for(int j = 0; j != iteration; j++)
+        for (int i = 0; i != number; i++)
+            fs << "extrinsic_matrix" << extrinsic_matrix_store[j][i];
+    fs.release();
 }

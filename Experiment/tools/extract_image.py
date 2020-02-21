@@ -80,5 +80,5 @@ class VideoReader:
         print(f"{int(self.__frame_cnt / p)} frames generated in {save_dir}")
 
 if __name__ == "__main__":
-    vr = VideoReader('./large_lp.mp4')
-    vr.gen_frames_by_num(20, './image/')
+    vr = VideoReader('./cb1.mp4')
+    vr.gen_frames_by_num(20, './cb_image/cb1/')

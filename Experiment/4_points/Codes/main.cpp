@@ -5,13 +5,20 @@
 #include "Calibration.hpp"
 using namespace std;
 using namespace cv;
-int main() {
+int main(int argc,char** argv) {
+    string store;
+    if(argc != 2) {
+        cout << "The store directory is not given!" << endl;
+        return 0;
+    }
+    else
+        store = string(argv[1]);
     double fx = 1500; //the ideal iintrinsic parameters fx
     double fy = 1500; //the ideal intrinsic parameters fy
-    int iteration = 10; //obtain the average value from n iterations in total
+    int iteration = 1; //obtain the average value from n iterations in total
     Size image_size = Size(1920, 1440);
     vector<int> board_w; //the number of image points
-    for(int i = 30; i <= 50; i++)
+    for(int i = 4; i <= 30; i++)
         board_w.push_back(i);
     vector<float> magnitude_noise = {0., 0.05, 0.1, 0.15, 0.2}; //the magnitude of random noise
     calibration calibration_model(board_w.size(), magnitude_noise.size());
@@ -29,11 +36,11 @@ int main() {
                 calibration_model.add_noise(i);
                 calibration_model.calibration_kernel();
             }
-            calibration_model.loop_ter();
+            calibration_model.loop_ter(store, j, board_w[board_w.size()-1]);
         }
         calibration_model.clear();
     }
-    calibration_model.record_data(board_w[0], board_w[1]-board_w[0],
+    calibration_model.record_data(store, board_w[0], board_w[1]-board_w[0],
             magnitude_noise[0], magnitude_noise[1] - magnitude_noise[0]);
     return 0;
 }

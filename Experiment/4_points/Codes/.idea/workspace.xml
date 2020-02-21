@@ -11,7 +11,83 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a02eefc-4ceb-4de5-bf68-6cc5c63e9cfa" name="Default Changelist" comment="" />
+    <list default="true" id="7a02eefc-4ceb-4de5-bf68-6cc5c63e9cfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Codes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Codes.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Codes.dir/Calibration.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Codes.dir/Calibration.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Codes.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Codes.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Calibration.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calibration.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Calibration.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes" beforeDir="false" afterPath="$PROJECT_DIR$/Codes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResultIdealPoints/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Codes.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Codes.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Codes.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Codes.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/Codes" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/Codes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/Results/intrinsics_groundtruth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/Results/intrinsics_manually.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/left-0048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/leftCameraAfter.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/calib-1-2/ost.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../License_plate(manually)/Codes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../License_plate(manually)/Codes/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,100 +95,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="242">
-                    <caret line="1262" column="31" selection-start-line="1262" selection-start-column="31" selection-end-line="1262" selection-end-column="31" />
-                    <folding>
-                      <element signature="e#2157#2179#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file:///usr/local/include/opencv2/core/mat.hpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="48897">
-                    <caret line="1811" column="8" selection-start-line="1811" selection-start-column="8" selection-end-line="1811" selection-end-column="8" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/imgproc/src/undistort.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="12042">
-                    <caret line="446" column="24" selection-start-line="446" selection-start-column="24" selection-end-line="446" selection-end-column="24" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/solvepnp.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1674">
-                    <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file:///usr/local/include/opencv2/imgproc/imgproc_c.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="8262">
-                    <caret line="306" column="54" selection-start-line="306" selection-start-column="54" selection-end-line="306" selection-end-column="54" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file:///usr/local/include/opencv2/core/core_c.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="10719">
-                    <caret line="397" column="14" selection-start-line="397" selection-start-column="14" selection-end-line="397" selection-end-column="14" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file:///usr/local/include/opencv2/calib3d.hpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="38178">
-                    <caret line="1414" column="16" selection-start-line="1414" selection-start-column="16" selection-end-line="1414" selection-end-column="16" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file:///usr/local/include/opencv2/calib3d/calib3d_c.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="3834">
-                    <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/fundam.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="10557">
-                    <caret line="391" column="37" selection-start-line="391" selection-start-column="37" selection-end-line="391" selection-end-column="37" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
@@ -125,23 +107,24 @@
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="18252" />
-          <entry key="hpp" value="1306" />
+          <entry key="cpp" value="19609" />
+          <entry key="hpp" value="1405" />
           <entry key="txt" value="440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="424" />
-          <entry key="ObjectiveC" value="19558" />
+          <entry key="ObjectiveC" value="21014" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -174,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="498">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -189,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calibration.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="50" column="47" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="47" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -198,11 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7020">
-              <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
+            <state relative-caret-position="372">
+              <caret line="323" column="52" selection-start-line="323" selection-start-column="52" selection-end-line="323" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -211,7 +194,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>criteria</find>
       <find>calibration</find>
       <find>calibrateC</find>
       <find>_objectPoints</find>
@@ -241,6 +223,7 @@
       <find>fx_error</find>
       <find>board_w</find>
       <find>cameraMatrix</find>
+      <find>image_points</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,9 +237,9 @@
         <option value="$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/imgproc/src/undistort.cpp" />
         <option value="$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Calibration.hpp" />
         <option value="$PROJECT_DIR$/Calibration.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -267,9 +250,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="236" />
-    <option name="y" value="1273" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="240" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
@@ -293,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,7 +292,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +350,8 @@
       <workItem from="1581619916357" duration="183000" />
       <workItem from="1581620106584" duration="8947000" />
       <workItem from="1582049889816" duration="18383000" />
-      <workItem from="1582089439541" duration="9139000" />
+      <workItem from="1582089439541" duration="15488000" />
+      <workItem from="1582232594635" duration="9917000" />
     </task>
     <task id="LOCAL-00001" summary="Add codes">
       <created>1579826993876</created>
@@ -401,18 +385,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120153000" />
+    <option name="totallyTimeSpent" value="136419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="1171" width="1855" height="1028" extended-state="0" />
+    <frame x="211" y="1052" width="1855" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10337203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104477614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33926585" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28062826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +406,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.28476083" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.44397905" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3497382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -547,16 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="1262" column="31" selection-start-line="1262" selection-start-column="31" selection-end-line="1262" selection-end-column="31" />
-          <folding>
-            <element signature="e#2157#2179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/opencv2/core/mat.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48897">
@@ -613,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -627,10 +594,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../opencv-3.4.3/modules/calib3d/src/calibration.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1259" column="51" lean-forward="true" selection-start-line="1259" selection-start-column="51" selection-end-line="1259" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Calibration.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="47" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -639,18 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7020">
-          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="323" column="52" selection-start-line="323" selection-start-column="52" selection-end-line="323" selection-end-column="52" />
         </state>
       </provider>
     </entry>
