@@ -64,6 +64,30 @@ in order to see how the performace would change when more noises are added into 
 * Need to introduce error analysis method
 * Need to figure out how to "add" noise to each image point
 * Need to figure out the specific configuration of extrinsic matrix in the real-world application
+
+## Update(2020.3.3)
+For more about error analysis, there are some good papers: 
+1. Robust Recovery of the Epipolar Geometry for an Uncalibrated Stereo Rig
+
+* It compares the linear algebra method with optimization method. The first one could provide with a non-iterative computation method, but is really sensitive to noise. 
+
+* It also tells that the sub-pixel position of points are important sepcially in the case where a small number of points are used(as in this case). This could remind us of the importance of how to achieve the sub-pixel accuracy by edge or corner estimation.
+
+* Hence, if we want to improve the accuray of the homography matrix obtained , we need to find a method to ensure sub-pixel accuracy.
+
+2. In Defense of the 8-point Algorithm
+* It emphasizes the importance of the data normalization before minimization. Also, it tells the data normalization could be routinely carried out. In openCV source code, it is done in the function findHomography(). 
+
+3. Multi-view Geometry
+
+* In chapter 4, it illustrates the difference between algebraic error and geometric error more detaily. 
+* We should try to adopt an optimization method to find the best homography matrix for minimizing the geometric error.
+
+4. Minimizing Algebraic Error in Geometric Estimation Problems
+* It mainly tells even if we use algebraic error(most people say that they do not minimizer the "right thing"), some few constraints could help improve the accuracy of the results.
+
+* We decide first to try minimize algebraic error with more constraints and if it doesn't work, use optimization method in order to minimize geometric error as suggested in Multi-view Geometry.
+
 ## References
 [1] Zhengyou Zhang, "[Flexible camera calibration by viewing a plane from unknown orientations](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=791289)," Proceedings of the Seventh IEEE International Conference on Computer Vision, Kerkyra, Greece, 1999, pp. 666-673 vol.1.
 

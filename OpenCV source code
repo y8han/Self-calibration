@@ -10,6 +10,8 @@ OpenCV source codes reading record:
 
 2.findhomography():first it normalizes all the data in each image plane, which is very important described in Multiple-view-geometry(non-isotropic normalization,then use eigenvalue decomposition to obtain the best solution of H in L2 norm) Pay attention:the eigenvalue decomposition of ATA(with eigenvectors) is equal to the SVD of A(the right part). OpenCV use absolute value to represent each point's deviation from the average one, instead of variance.  //the source code of this function is in fundam.cpp, btw the most important function runKernel is also in fundam.cpp(it also includes the normalization operation).
 
+Update:It is not enough to simply use Opencv built-in function. It only minimizer the algebraic error instead of geometric error. It works well for chessboard calibration with sub-pixel accuracy, but shows poor perfarmance of license plate calibration.
+
 If the there are only four points as input, findhomography can not use RANSAC for outliers remove.If more than 4 points are entered,we can choose to use one of the three different methods to improve the results:
 1.RANSAC-based robust method
 2.Least-Median robust method
