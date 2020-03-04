@@ -86,7 +86,7 @@ For more about error analysis, there are some good papers:
 4. Minimizing Algebraic Error in Geometric Estimation Problems
 * It mainly tells even if we use algebraic error(most people say that they do not minimizer the "right thing"), some few constraints could help improve the accuracy of the results.
 
-* We decide first to try minimize algebraic error with more constraints and if it doesn't work, use optimization method in order to minimize geometric error as suggested in Multi-view Geometry.
+* We decide first to try minimize algebraic error with more constraints and if it doesn't work, use optimization method in order to minimize geometric error as suggested in Multi-view Geometry. Besides, we think this optimization for homography matrix is very important for the final optimization for the intrinsic matrix. Because it could find a good initial guess, which plays a significant role.
 
 ## References
 [1] Zhengyou Zhang, "[Flexible camera calibration by viewing a plane from unknown orientations](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=791289)," Proceedings of the Seventh IEEE International Conference on Computer Vision, Kerkyra, Greece, 1999, pp. 666-673 vol.1.
